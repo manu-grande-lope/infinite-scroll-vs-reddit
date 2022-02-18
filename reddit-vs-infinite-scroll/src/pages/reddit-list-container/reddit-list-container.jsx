@@ -50,6 +50,8 @@ export default function RedditListContainer() {
 
     return (
         <div className="list-page">
+            <h1>The Cutests cats</h1>
+            <p>A subreddit infinite thread</p>
             <div className="list-container">
                 {
                     items.map((e, index) => {
