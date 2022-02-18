@@ -5,7 +5,7 @@ To run this application on your computer you must download the zip file of the f
 I use VSCode.
 Just initialize the app with npm and then run the `npm start` command to run it on your localhost.
 
-As framework I used ReactJS, and the infinite scroll part is made with an `**intersectionObserver**` and `**useEffect**`.
+As framework I used ReactJS, and the infinite scroll part is made with an `intersectionObserver` and `useEffect`.
 
 Everything is made with just:
 
