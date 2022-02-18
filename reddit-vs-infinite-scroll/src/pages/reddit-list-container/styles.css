@@ -78,11 +78,7 @@ a:hover {
     flex-direction: row;
     align-items: center;
     gap: 2rem;
-}
-
-.h3-loading {
-    color: #dad6d6;
-    align-self: center;
+    margin-right: 10px;
 }
 
 .div-loader {
