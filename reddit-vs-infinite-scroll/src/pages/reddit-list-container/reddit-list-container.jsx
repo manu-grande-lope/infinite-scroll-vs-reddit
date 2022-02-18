@@ -15,7 +15,7 @@ export default function RedditListContainer() {
     useEffect(() => {
         setIsLoading(true)
 
-        fetch(`https://www.reddit.com/r/cats.json?after=${after}`)
+        fetch(`https://www.reddit.com/r/coding.json?after=${after}`)
             .then(r => r.json())
             .then(d => {
                 updateAfter(d.data.after)
@@ -26,13 +26,13 @@ export default function RedditListContainer() {
 
     useEffect(() => {
         console.log("llego hasta el segundo useState")
-        if (lastRef.current !== undefined) { // el error está aquí, creo
-            console.log("llego hasta el primer if") // no llega
+        if (lastRef.current !== undefined) { 
+
             const observer = new IntersectionObserver((posts) => {
                 if (posts[0].isIntersecting && !isLoading) {
                     setIsLoading(true)
 
-                    fetch(`https://www.reddit.com/r/cats.json?after=${after}`)
+                    fetch(`https://www.reddit.com/r/coding.json?after=${after}`)
                         .then(r => r.json())
                         .then(d => {
                             updateAfter(d.data.after)
@@ -50,7 +50,7 @@ export default function RedditListContainer() {
 
     return (
         <div className="list-page">
-            <h1>The Cutests cats</h1>
+            <h1>THE CODING BIBLE</h1>
             <p>A subreddit infinite thread</p>
             <div className="list-container">
                 {
