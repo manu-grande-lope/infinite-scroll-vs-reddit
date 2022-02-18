@@ -26,7 +26,7 @@ export default function RedditListContainer() {
 
     useEffect(() => {
         console.log("llego hasta el segundo useState")
-        if (lastRef.current !== undefined) { 
+        if (lastRef.current !== undefined) {
 
             const observer = new IntersectionObserver((posts) => {
                 if (posts[0].isIntersecting && !isLoading) {
@@ -51,8 +51,8 @@ export default function RedditListContainer() {
     return (
         <div className="list-page">
             <div className="list-page_title">
-            <h1>CODING ON REDDIT</h1>
-            <p>An infinite thread</p>
+                <h1>CODING ON REDDIT</h1>
+                <p>An infinite thread</p>
             </div>
             <div className="list-container">
                 {
@@ -67,7 +67,8 @@ export default function RedditListContainer() {
             </div>
             {
                 isLoading ?
-                    <h3 className="h3-loading">CARGANDO CONTENIDO</h3> // cambiar por icono de carga
+                    // <h3 className="h3-loading">CARGANDO CONTENIDO</h3>
+                    <div className="div-loader"></div>
                     :
                     null
             }

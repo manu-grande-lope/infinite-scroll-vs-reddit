@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #ecf0f5;
+}
+
 a:link, a:visited, a:active {
     text-decoration: none;
     color: rgb(31, 30, 28);
@@ -21,12 +25,13 @@ a:hover {
     padding: 10px;
 }
 
-.list-page_title{
+.list-page_title {
     align-self: center;
     margin-top: 30px;
     letter-spacing: 1rem;
 }
-.list-page_title p{
+
+.list-page_title p {
     letter-spacing: 0.2rem;
     color: rgb(245, 177, 89);
 }
@@ -75,7 +80,28 @@ a:hover {
     gap: 2rem;
 }
 
-.h3-loading{
-    color: #ffffff;
+.h3-loading {
+    color: #dad6d6;
     align-self: center;
+}
+
+.div-loader {
+    align-self: center;
+    margin-bottom: 100px;
+    border: 3px solid #ffffff;
+    border-top: 3px solid #5e5e5e;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
