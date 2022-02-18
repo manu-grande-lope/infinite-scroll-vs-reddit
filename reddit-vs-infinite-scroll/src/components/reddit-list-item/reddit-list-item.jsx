@@ -15,7 +15,7 @@ export const RedditListItem = forwardRef((props, ref) => {
 
 
     return (
-        <div className="list-page__item">
+        <div className="list-page__item" ref={ref}>
             <h3><a href={`https://www.reddit.com/${props.data.data.permalink}`}
                 target="_blank" rel="noreferrer">{props.data.data.title}</a></h3>
             <p>{props.data.data.subreddit}</p>
