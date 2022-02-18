@@ -1,0 +1,21 @@
+.list-page{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.list-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.list-page__item{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1.5px #00ffff;
+}

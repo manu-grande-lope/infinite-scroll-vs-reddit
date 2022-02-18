@@ -1,6 +1,6 @@
 
 import './App.css';
-import RedditListContainer from './pages/item-list-page/item-list-page';
+import RedditListContainer from './pages/reddit-list-container/reddit-list-container.jsx'
 
 function App() {
   return (
