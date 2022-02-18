@@ -50,8 +50,10 @@ export default function RedditListContainer() {
 
     return (
         <div className="list-page">
-            <h1>THE CODING BIBLE</h1>
-            <p>A subreddit infinite thread</p>
+            <div className="list-page_title">
+            <h1>CODING ON REDDIT</h1>
+            <p>An infinite thread</p>
+            </div>
             <div className="list-container">
                 {
                     items.map((e, index) => {
@@ -65,7 +67,7 @@ export default function RedditListContainer() {
             </div>
             {
                 isLoading ?
-                    <h3>cargando</h3> // cambiar por icono de carga
+                    <h3 className="h3-loading">CARGANDO CONTENIDO</h3> // cambiar por icono de carga
                     :
                     null
             }
