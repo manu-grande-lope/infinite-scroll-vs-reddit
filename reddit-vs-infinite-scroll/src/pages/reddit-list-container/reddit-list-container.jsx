@@ -15,7 +15,7 @@ export default function RedditListContainer() {
     useEffect(() => {
         setIsLoading(true)
 
-        fetch(`https://www.reddit.com/r/coding.json?after=${after}`)
+        fetch(`https://www.reddit.com/r/aww.json?after=${after}`)
             .then(r => r.json())
             .then(d => {
                 updateAfter(d.data.after)
@@ -32,7 +32,7 @@ export default function RedditListContainer() {
                 if (posts[0].isIntersecting && !isLoading) {
                     setIsLoading(true)
 
-                    fetch(`https://www.reddit.com/r/coding.json?after=${after}`)
+                    fetch(`https://www.reddit.com/r/aww.json?after=${after}`)
                         .then(r => r.json())
                         .then(d => {
                             updateAfter(d.data.after)
@@ -51,7 +51,7 @@ export default function RedditListContainer() {
     return (
         <div className="list-page">
             <div className="list-page_title">
-                <h1>CODING ON REDDIT</h1>
+                <h1>THE CUTEST CUTE</h1>
                 <p>An infinite thread</p>
             </div>
             <div className="list-container">

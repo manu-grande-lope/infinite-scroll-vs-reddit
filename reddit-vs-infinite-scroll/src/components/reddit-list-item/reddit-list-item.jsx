@@ -8,8 +8,8 @@ export const RedditListItem = forwardRef((props, ref) => {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        height: '100px',
-        width: '100px',
+        minHeight: '100px',
+        minWidth: '100px',
         marginTop: '20px',
         marginLeft: '20px',
     }
