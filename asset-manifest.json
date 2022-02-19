@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/infinite-scroll-vs-reddit/static/css/main.b00210df.css",
-    "main.js": "/infinite-scroll-vs-reddit/static/js/main.530195d9.js",
+    "main.css": "/infinite-scroll-vs-reddit/static/css/main.d1d66164.css",
+    "main.js": "/infinite-scroll-vs-reddit/static/js/main.c0112446.js",
     "static/js/787.4fa82e1e.chunk.js": "/infinite-scroll-vs-reddit/static/js/787.4fa82e1e.chunk.js",
     "index.html": "/infinite-scroll-vs-reddit/index.html",
-    "main.b00210df.css.map": "/infinite-scroll-vs-reddit/static/css/main.b00210df.css.map",
-    "main.530195d9.js.map": "/infinite-scroll-vs-reddit/static/js/main.530195d9.js.map",
+    "main.d1d66164.css.map": "/infinite-scroll-vs-reddit/static/css/main.d1d66164.css.map",
+    "main.c0112446.js.map": "/infinite-scroll-vs-reddit/static/js/main.c0112446.js.map",
     "787.4fa82e1e.chunk.js.map": "/infinite-scroll-vs-reddit/static/js/787.4fa82e1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b00210df.css",
-    "static/js/main.530195d9.js"
+    "static/css/main.d1d66164.css",
+    "static/js/main.c0112446.js"
   ]
 }
