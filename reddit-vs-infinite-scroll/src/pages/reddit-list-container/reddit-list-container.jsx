@@ -52,7 +52,7 @@ export default function RedditListContainer() {
         <div className="list-page">
             <div className="list-page_title">
                 <h1>THE CUTEST CUTE</h1>
-                <p>An infinite thread</p>
+                <p>An infinite "aww" thread</p>
             </div>
             <div className="list-container">
                 {

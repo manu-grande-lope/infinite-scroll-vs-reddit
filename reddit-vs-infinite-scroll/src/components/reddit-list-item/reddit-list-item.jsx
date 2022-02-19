@@ -7,7 +7,6 @@ export const RedditListItem = forwardRef((props, ref) => {
         backgroundImage: `url("${props.data.data.thumbnail}")`,
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
         minHeight: '100px',
         minWidth: '100px',
         marginTop: '20px',
